@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hola, soy Valentin Marturet, Desarrollador Web con experiencia desarrolladon apps con React.js 👋
+
+## Portafolio: https://valentinmarturet.github.io/valentinMarturet/
 
 <!--
 **ValentinMarturet/valentinMarturet** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
