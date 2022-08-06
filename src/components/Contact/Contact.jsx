@@ -25,7 +25,7 @@ const Contact = () => {
         </a>
         <a
           className={styles.contactButton}
-          href="www.linkedin.com/in/valentín-marturet"
+          href="https://www.linkedin.com/in/valent%C3%ADn-marturet/"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
