@@ -1,0 +1,40 @@
+.container {
+  background-color: #7510f7;
+  padding: 6rem;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+}
+
+.email {
+  color: #fff;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  padding-block: 2rem;
+}
+
+.contactButton {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  outline: none;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: none;
+  margin-inline: 1rem;
+}
+.contactButton:hover {
+  background: #fff;
+  color: #7510f7;
+}

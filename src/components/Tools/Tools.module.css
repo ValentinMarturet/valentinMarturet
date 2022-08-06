@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tool_container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(250px, 300px));
+  grid-gap: 1rem;
+  justify-content: center;
+  width: 60%;
+  margin: 3rem;
+  position: relative;
+  top: -6rem;
+}
+
+.title {
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+  font-weight: 500;
+  max-width: 75ch;
+  text-align: center;
+}
+
+.tools_title {
+  background-color: #7510f7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 6rem;
+}
+
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+  .tool_container {
+    grid-template-columns: repeat(2, minmax(250px, 300px));
+  }
+}
+@media (min-width: 1024px) {
+  .tool_container {
+    grid-template-columns: repeat(3, minmax(250px, 300px));
+  }
+}
+@media (min-width: 1280px) {
+}

@@ -1,0 +1,89 @@
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  padding: 20px 40px;
+  background-position: center;
+  background-size: cover;
+}
+
+.img {
+  width: 100%;
+  transition: 500ms;
+}
+
+.hidden_card {
+  color: #fff;
+  transition: 1000ms ease;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_text {
+  text-align: center;
+  max-width: 300px;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.gitButton {
+  min-width: 100px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #7510f7;
+  background: none;
+  margin-inline: 1rem;
+}
+.gitButton:hover {
+  background: #7510f7;
+  color: #fff;
+}
+.siteButton {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #7510f7;
+  margin-inline: 1rem;
+}
+.siteButton:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.siteButton:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.siteButton:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
