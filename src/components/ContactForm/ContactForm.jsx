@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import styles from "./ContactForm.module.css";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
@@ -13,7 +13,8 @@ const ContactForm = () => {
   const [form, setForm] = useState(initialState);
 
   const isValidEmail = (email) => {
-    return /\S+@\S+\.\S+/.test(email);
+    // return /\S+@\S+\.\S+/.test(email);
+    return /\S+@\S+/.test(email);
   };
 
   const handleChange = (e) => {
@@ -107,6 +108,7 @@ const ContactForm = () => {
           </label>
           <textarea
             className={styles.msg_box}
+            required
             type="text"
             name="message"
             value={form.message}
