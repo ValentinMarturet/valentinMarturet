@@ -87,3 +87,11 @@
   right: -20px;
   transition: 0.4s;
 }
+
+@media (max-width: 370px) {
+  .siteButton,
+  .gitButton {
+    min-width: none;
+    margin-inline: 5px;
+  }
+}

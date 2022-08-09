@@ -11,6 +11,7 @@ const ProjectCard = ({
   const [visible, setVisible] = useState("100");
   const [hidden, setHidden] = useState("0");
   const [color, setColor] = useState(bgColor);
+  const [pEvents, setPEvents] = useState("none");
 
   const divStyle = {
     transition: "500ms",
@@ -25,15 +26,20 @@ const ProjectCard = ({
         setVisible("0");
         setHidden("100");
         setColor("rgba(56, 13, 113, 1)");
+        setPEvents("auto");
       }}
       onMouseLeave={() => {
         setVisible("100");
         setHidden("0");
         setColor(bgColor);
+        setPEvents("none");
       }}
     >
       <img className={styles.img} src={logo} style={{ opacity: visible }} />
-      <div className={styles.hidden_card} style={{ opacity: hidden }}>
+      <div
+        className={styles.hidden_card}
+        style={{ opacity: hidden, pointerEvents: pEvents }}
+      >
         <h3 className={styles.card_text}>{children}</h3>
         <div>
           <button
