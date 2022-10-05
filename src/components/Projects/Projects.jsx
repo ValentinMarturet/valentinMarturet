@@ -14,6 +14,15 @@ const Projects = ({ reference }) => {
       </div>
       <div className={styles.project_container}>
         <ProjectCard
+          logo={projectLogos.FSportsWear}
+          bgColor={"rgba(255, 255, 255, 1)"}
+          gitLink="https://github.com/ValentinMarturet/react-ecommerce"
+          siteLink="https://eclectic-zabaione-630848.netlify.app/"
+        >
+          Una simple pagina ecommerce. Herramientas: React, React-router,
+          ReduxTK.
+        </ProjectCard>
+        <ProjectCard
           logo={projectLogos.Netflix}
           bgColor={"rgba(22, 22, 22, 1)"}
           gitLink="https://github.com/ValentinMarturet/netflix-clone"
