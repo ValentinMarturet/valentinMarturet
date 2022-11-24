@@ -3,7 +3,7 @@
 ### https://valentinmarturet.netlify.app/
 
 # 💫 About Me:
-🔭 I’m currently working on improving my developer skills.<br>🌱 I’m currently learning the T3-Stack (Next.js TypeScript, tRPC, Prisma, TailwindCSS, NextAuth.js).
+🔭 I’m currently working on improving my developer skills.<br>🌱 I’m currently learning the T3-Stack (Next.js, TypeScript, tRPC, Prisma, TailwindCSS, NextAuth.js).
 
 
 ## 🌐 Socials:
