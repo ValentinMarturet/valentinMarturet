@@ -19,6 +19,4 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=ValentinMarturet&icon=5&color=12)](https://visitcount.itsvg.in)
 
----
-[![](https://visitcount.itsvg.in/api?id=ValentinMarturet&icon=5&color=12)](https://visitcount.itsvg.in)
 
